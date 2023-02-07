@@ -1,22 +1,5 @@
 from subprocess import check_output,CalledProcessError
 
-# list_all_networks_cmd:list[str]=['netsh', 'wlan','show','profiles']
-
-# list_output:str=check_output(list_all_networks_cmd,shell=True).decode()
-
-# networks_names=[outline.rsplit(":")[-1].strip() for outline in list_output.split("\n")][9:]
-
-#get_key_cmd=["netsh", "wlan", "show", "profile", "name=Eye-Fi Card 22eade", "key=clear", "|", "find", "/I", 'Key Content']
-
-
-#print(check_output(get_key_cmd,shell="True"))
-
-#for network_name in networks_names:
-    
-
-
-#print("\n".join([f"{i} {network}" for i,network in enumerate(networks_names) if len(network)>2]))
-
 
 
 class KnownNetwork:
